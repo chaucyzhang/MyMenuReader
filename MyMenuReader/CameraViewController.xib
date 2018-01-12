@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangTC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="MyMenuReader" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fN-gR-r1g">
+                    <rect key="frame" x="321" y="30" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="U7q-ej-sjb"/>
+                        <constraint firstAttribute="height" constant="44" id="xWe-AU-5wd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                    <state key="normal" image="closeButton"/>
+                    <connections>
+                        <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="yTn-Jf-yMS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTq-K3-06s">
+                    <rect key="frame" x="145" y="563" width="84" height="84"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="RBn-By-wTZ"/>
+                        <constraint firstAttribute="height" constant="84" id="ftL-WQ-2vx"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="camera">
+                        <color key="titleColor" red="0.92941176469999998" green="0.1960784314" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="captureButtonAction:" destination="-1" eventType="touchUpInside" id="SQu-uy-vq8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXG-vb-ZsA">
+                    <rect key="frame" x="51" y="583" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="CSb-f8-5Ac"/>
+                        <constraint firstAttribute="width" constant="44" id="jlw-JB-O7t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                    <state key="normal" image="fromGallery"/>
+                    <connections>
+                        <action selector="fromGalleryButtonAction:" destination="-1" eventType="touchUpInside" id="dOG-oO-vGT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbx-9J-j8I">
+                    <rect key="frame" x="279" y="583" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="ObA-Ku-fHs"/>
+                        <constraint firstAttribute="height" constant="44" id="Zh6-nR-Ydn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                    <state key="normal" image="flip"/>
+                    <connections>
+                        <action selector="flipButtonAction:" destination="-1" eventType="touchUpInside" id="l2F-Ug-Uf9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6fN-gR-r1g" secondAttribute="trailing" constant="10" id="1v3-po-LYI"/>
+                <constraint firstItem="6fN-gR-r1g" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="CBW-lS-zYC"/>
+                <constraint firstItem="eXG-vb-ZsA" firstAttribute="centerY" secondItem="eTq-K3-06s" secondAttribute="centerY" id="dxY-Ag-Bgp"/>
+                <constraint firstItem="Hbx-9J-j8I" firstAttribute="centerY" secondItem="eTq-K3-06s" secondAttribute="centerY" id="iOY-gc-BRM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="eTq-K3-06s" secondAttribute="bottom" constant="20" id="jpQ-SI-WWu"/>
+                <constraint firstItem="Hbx-9J-j8I" firstAttribute="leading" secondItem="eTq-K3-06s" secondAttribute="trailing" constant="50" id="tg6-CY-ilK"/>
+                <constraint firstItem="eTq-K3-06s" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="vCH-ZX-2jn"/>
+                <constraint firstItem="eTq-K3-06s" firstAttribute="leading" secondItem="eXG-vb-ZsA" secondAttribute="trailing" constant="50" id="zcn-qZ-NAR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera" width="70" height="70"/>
+        <image name="closeButton" width="19" height="19"/>
+        <image name="flip" width="20" height="20"/>
+        <image name="fromGallery" width="20" height="20"/>
+    </resources>
+</document>

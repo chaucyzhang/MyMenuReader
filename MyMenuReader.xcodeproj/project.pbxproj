@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6A303AB220071EE8000D110E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A303AB120071EE8000D110E /* AppDelegate.swift */; };
-		6A303AB420071EE8000D110E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A303AB320071EE8000D110E /* ViewController.swift */; };
-		6A303AB720071EE8000D110E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A303AB520071EE8000D110E /* Main.storyboard */; };
+		6A303AB420071EE8000D110E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A303AB320071EE8000D110E /* MainViewController.swift */; };
 		6A303AB920071EE8000D110E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A303AB820071EE8000D110E /* Assets.xcassets */; };
 		6A303ABC20071EE8000D110E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A303ABA20071EE8000D110E /* LaunchScreen.storyboard */; };
 		6A303AC720071EE8000D110E /* MyMenuReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A303AC620071EE8000D110E /* MyMenuReaderTests.swift */; };
 		6A303AD220071EE8000D110E /* MyMenuReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A303AD120071EE8000D110E /* MyMenuReaderUITests.swift */; };
+		6A303AE920074547000D110E /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 6A303AE820074547000D110E /* tessdata */; };
+		6A303AEB2007465C000D110E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A303AEA2007465C000D110E /* libz.tbd */; };
+		6AB082E820094B3000CB7038 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB082E620094B3000CB7038 /* CameraViewController.swift */; };
+		6AB082E920094B3000CB7038 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB082E720094B3000CB7038 /* CameraViewController.xib */; };
+		6AC9F9D42008333700F75608 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC9F9D32008333700F75608 /* GalleryViewController.swift */; };
+		6AC9F9D9200838AB00F75608 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC9F9D8200838AB00F75608 /* PhotoCell.xib */; };
+		6AC9F9DB200839B300F75608 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC9F9DA200839B300F75608 /* PhotoCell.swift */; };
+		6AC9F9DD200896F200F75608 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC9F9DC200896F200F75608 /* MainViewController.xib */; };
+		6AC9F9DF2008972800F75608 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC9F9DE2008972800F75608 /* GalleryViewController.xib */; };
+		975DCDE48054631485BE8F1A /* Pods_MyMenuReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1948933ECCE0F037373CD3 /* Pods_MyMenuReader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16EF3483DDA60FF73549D1AB /* Pods-MyMenuReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMenuReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMenuReader/Pods-MyMenuReader.release.xcconfig"; sourceTree = "<group>"; };
+		1BA2158D994FDA849616B246 /* Pods-MyMenuReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMenuReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMenuReader/Pods-MyMenuReader.debug.xcconfig"; sourceTree = "<group>"; };
 		6A303AAE20071EE8000D110E /* MyMenuReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMenuReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A303AB120071EE8000D110E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A303AB320071EE8000D110E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A303AB620071EE8000D110E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A303AB320071EE8000D110E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6A303AB820071EE8000D110E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A303ABB20071EE8000D110E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A303ABD20071EE8000D110E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		6A303ACD20071EE8000D110E /* MyMenuReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMenuReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A303AD120071EE8000D110E /* MyMenuReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuReaderUITests.swift; sourceTree = "<group>"; };
 		6A303AD320071EE8000D110E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A303AE820074547000D110E /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
+		6A303AEA2007465C000D110E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6AB082E620094B3000CB7038 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6AB082E720094B3000CB7038 /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		6AC9F9D32008333700F75608 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		6AC9F9D8200838AB00F75608 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		6AC9F9DA200839B300F75608 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		6AC9F9DC200896F200F75608 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6AC9F9DE2008972800F75608 /* GalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		AA1948933ECCE0F037373CD3 /* Pods_MyMenuReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMenuReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A303AEB2007465C000D110E /* libz.tbd in Frameworks */,
+				975DCDE48054631485BE8F1A /* Pods_MyMenuReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C6956122DE8C33FCB5D8437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2158D994FDA849616B246 /* Pods-MyMenuReader.debug.xcconfig */,
+				16EF3483DDA60FF73549D1AB /* Pods-MyMenuReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57C4CB65ABFA4205949568E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A303AEA2007465C000D110E /* libz.tbd */,
+				AA1948933ECCE0F037373CD3 /* Pods_MyMenuReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A303AA520071EE8000D110E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				6A303AC520071EE8000D110E /* MyMenuReaderTests */,
 				6A303AD020071EE8000D110E /* MyMenuReaderUITests */,
 				6A303AAF20071EE8000D110E /* Products */,
+				4C6956122DE8C33FCB5D8437 /* Pods */,
+				57C4CB65ABFA4205949568E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +139,15 @@
 		6A303AB020071EE8000D110E /* MyMenuReader */ = {
 			isa = PBXGroup;
 			children = (
+				6AC9F9D52008387400F75608 /* Views */,
+				6A303AE820074547000D110E /* tessdata */,
 				6A303AB120071EE8000D110E /* AppDelegate.swift */,
-				6A303AB320071EE8000D110E /* ViewController.swift */,
-				6A303AB520071EE8000D110E /* Main.storyboard */,
+				6A303AB320071EE8000D110E /* MainViewController.swift */,
+				6AC9F9DC200896F200F75608 /* MainViewController.xib */,
+				6AC9F9D32008333700F75608 /* GalleryViewController.swift */,
+				6AC9F9DE2008972800F75608 /* GalleryViewController.xib */,
+				6AB082E620094B3000CB7038 /* CameraViewController.swift */,
+				6AB082E720094B3000CB7038 /* CameraViewController.xib */,
 				6A303AB820071EE8000D110E /* Assets.xcassets */,
 				6A303ABA20071EE8000D110E /* LaunchScreen.storyboard */,
 				6A303ABD20071EE8000D110E /* Info.plist */,
@@ -125,6 +173,15 @@
 			path = MyMenuReaderUITests;
 			sourceTree = "<group>";
 		};
+		6AC9F9D52008387400F75608 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AC9F9D8200838AB00F75608 /* PhotoCell.xib */,
+				6AC9F9DA200839B300F75608 /* PhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A303AD620071EE8000D110E /* Build configuration list for PBXNativeTarget "MyMenuReader" */;
 			buildPhases = (
+				0437BF2EBC3DF726FF64D327 /* [CP] Check Pods Manifest.lock */,
 				6A303AAA20071EE8000D110E /* Sources */,
 				6A303AAB20071EE8000D110E /* Frameworks */,
 				6A303AAC20071EE8000D110E /* Resources */,
+				5B75612E62A5F971932D5FB6 /* [CP] Embed Pods Frameworks */,
+				DA6F9DA033F251C63EC73823 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB082E920094B3000CB7038 /* CameraViewController.xib in Resources */,
 				6A303ABC20071EE8000D110E /* LaunchScreen.storyboard in Resources */,
+				6AC9F9DD200896F200F75608 /* MainViewController.xib in Resources */,
+				6AC9F9D9200838AB00F75608 /* PhotoCell.xib in Resources */,
+				6A303AE920074547000D110E /* tessdata in Resources */,
 				6A303AB920071EE8000D110E /* Assets.xcassets in Resources */,
-				6A303AB720071EE8000D110E /* Main.storyboard in Resources */,
+				6AC9F9DF2008972800F75608 /* GalleryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +318,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0437BF2EBC3DF726FF64D327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMenuReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B75612E62A5F971932D5FB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMenuReader/Pods-MyMenuReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMenuReader/Pods-MyMenuReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA6F9DA033F251C63EC73823 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMenuReader/Pods-MyMenuReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A303AAA20071EE8000D110E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A303AB420071EE8000D110E /* ViewController.swift in Sources */,
+				6AC9F9DB200839B300F75608 /* PhotoCell.swift in Sources */,
+				6AB082E820094B3000CB7038 /* CameraViewController.swift in Sources */,
+				6AC9F9D42008333700F75608 /* GalleryViewController.swift in Sources */,
+				6A303AB420071EE8000D110E /* MainViewController.swift in Sources */,
 				6A303AB220071EE8000D110E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +423,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6A303AB520071EE8000D110E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A303AB620071EE8000D110E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A303ABA20071EE8000D110E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,10 +543,12 @@
 		};
 		6A303AD720071EE8000D110E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA2158D994FDA849616B246 /* Pods-MyMenuReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GWQFTCNX68;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyMenuReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.MyMenuReader;
@@ -439,10 +560,12 @@
 		};
 		6A303AD820071EE8000D110E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EF3483DDA60FF73549D1AB /* Pods-MyMenuReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GWQFTCNX68;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyMenuReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.MyMenuReader;
